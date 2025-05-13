@@ -31,7 +31,7 @@ nav ul{
     
 }
 nav a {
-     color: #ecf0f1;  
+     color: #bec9cc;  
     text-decoration: none;
     font-weight: 600;  
     font-size: 1.1rem;
@@ -184,7 +184,7 @@ footer {
 /* Handy-Ansicht */
 @media (max-width: 768px) {
     .destinations-grid {
-        grid-template-columns: 1fr; /* 1 Spalte */
+        grid-template-columns: 1fr; 
     }
     
     nav ul {
