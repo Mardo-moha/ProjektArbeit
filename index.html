@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="Utf-8" />
+    <meta name="viewport" content="width-device.width, initial-scale=1.0" />
+    <title>Wanderlust Adventures | Reise-Blog</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>Wanderlust Adventures</h1>
+        <p>Entdecke die welt mit uns!</p>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#homw">Start</a></li>
+          <li><a href="destinations">Reisezile</a></li>
+          <li><a href="#tips">Tipps</a></li>
+          <li><a href="#about">über uns</a></li>
+          <li><a href="#contact">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="home" class="hero">
+      <h2>Abenteuer beginnt hier</h2>
+      <p>
+        <em><strong>Tauche ein in Faszinierende Reiseziele.</strong></em>
+      </p>
+      <button class="cta-button">Reisetipps ansehen</button>
+    </section>
+    <section id="destinations" class="destinations-section">
+      <h2>Unsere Top-Reiseziele</h2>
+      <div class="destinations-grid">
+        <!--Erste REisekarte-->
+
+        <a
+          href="https://de.wikipedia.org/wiki/Norwegen"
+          target="_blank"
+          class="card-link"
+        >
+          <div class="destination-card">
+            <img
+              src="https://cdn.sanity.io/images/4aans0in/production/56f3fc68d98b5905022469c6843ae000443cd505-2000x1250.jpg?fm=webp&fit=max&auto=format "
+              alt="Fjorde in Norwegen"
+              
+            />
+
+            <h3>Norwegen</h3>
+            <p>Majestätische Fjorde und Nordlichter</p>
+          </div>
+        </a>
+        <!--zweite Reisekarte-->
+        <a
+          href="https://de.wikipedia.org/wiki/Japan"
+          target="_blank"
+          class="card-link"
+        >
+          <div class="destination-card">
+            <img
+              src="https://www.agitano.com/wp-content/uploads/2023/08/agitano-tokio-besuchen.webp"
+              alt="Tokio Stadtbild"
+              
+            />
+            <h3>Japan</h3>
+            <p>Moderne Metropolen und alte Traditionen</p>
+          </div>
+        </a>
+      </div>
+    </section>
+    <section id="contact" class="contact-section">
+      <h2>Kontakt Aufnehmen</h2>
+      <form class="contact-form">
+        <label for="name"><strong>Namen:</strong></label>
+        <input type="text" id="name" required />
+        <label for="email"><strong>E-Mail</strong></label>
+        <input type="email" id="email" required />
+        <label for="message"><strong>Nachricht:</strong></label>
+        <textarea id="message" required></textarea>
+        <button type="submit"><strong>Abesnden</strong></button>
+      </form>
+    </section>
+    <footer>
+      <p>@2025 Wanderlust Adventures</p>
+      <div class="social-links">
+        <a href="https://www.instagram.com/moh201amad/#" target="_blank"
+          >Instagram</a
+        >
+        <a href="https://www.facebook.com/mohamad.morhaf.9" target="_blank"
+          >Facebook</a
+        >
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
