@@ -21,12 +21,14 @@ nav{
     margin-left: auto;
     margin-right: 20px;
 }
+ 
 nav ul{
-    list-style: none;
+    list-style:none;
     display:flex;
     gap: 40px;
     margin: 0;
     padding-left: 0;
+    
     
     
 }
@@ -51,6 +53,35 @@ nav a:hover{
     
     color: #8774b9;
 }
+/* ===== REISETIPPS-SEITE ===== */
+.tips-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.tip-card {
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.tip-category {
+    color: #f39c12;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Kategorie-Farben */
+.tip-category.packing { color: #3498db; }
+.tip-category.budget { color: #2ecc71; }
+.tip-category.safety { color: #e74c3c; }
+
+
+
 
 .hero{
     background: url('https://tropeninstitut.de/_upload_bilder/_filemanager/image/photos/flugzeug/300x300/flug_2.jpg') center/cover;
@@ -189,7 +220,6 @@ footer {
 .social-links a:hover{
     color: orange;
 }
-/* Handy-Ansicht */
 @media (max-width: 768px) {
     .destinations-grid {
         grid-template-columns: 1fr; 
