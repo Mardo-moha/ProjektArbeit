@@ -4,14 +4,17 @@
     <meta charset="Utf-8" />
     <meta name="viewport" content="width-device.width, initial-scale=1.0" />
     <title>Wanderlust Adventures | Reise-Blog</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles1.css" />
   </head>
   <body>
     <header>
-      <div class="logo">
+        <div class="logo" style="display: flex; align-items: center; gap: 15px;">
+    <img src="https://cdn-icons-png.flaticon.com/512/201/201623.png" alt="Reise-Logo"width="60"/>
+      <div>
         <h1>Wanderlust Adventures</h1>
         <p>Entdecke die welt mit uns!</p>
       </div>
+        </div>
       <nav>
         <ul>
           <li><a href="#home">Start</a></li>
@@ -32,6 +35,13 @@
       <a href="Reisetipps.html" target="_blank">
       <button class="cta-button">Reisetipps ansehen</button></a>
     </section>
+    <section class="search-section">
+  <form class="search-form">
+    <label for="search">Reiseziel suchen:</label>
+    <input type="text" id="search" name="search" placeholder="z.B Spaniern, Türkei" required />
+    <button type="submit">Suchen</button>
+  </form>
+</section>
     <section id="destinations" class="destinations-section">
       <h2>Unsere Top-Reiseziele</h2>
       <div class="destinations-grid">
