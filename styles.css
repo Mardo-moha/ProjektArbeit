@@ -45,6 +45,13 @@ nav a {
 nav a:hover{
     color:orange;
 }
+#color-mitte{
+    font-weight: 400;
+    font-size: large;
+    
+    color: #8774b9;
+}
+
 .hero{
     background: url('https://tropeninstitut.de/_upload_bilder/_filemanager/image/photos/flugzeug/300x300/flug_2.jpg') center/cover;
       height: 60vh;
